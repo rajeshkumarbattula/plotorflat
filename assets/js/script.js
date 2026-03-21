@@ -24,7 +24,7 @@ const flats = [
    { 
         title: "Nirvanan Kuteer (re sale)", 
         location: "Pragathi Nagar - near More Super Markat", 
-        size: "1050", 
+        size: "1050 sft", 
         price: "58 Lakhs", 
         imgBase: "assets/images/NirvanaKuteer_", 
         imgCount: 1, 
