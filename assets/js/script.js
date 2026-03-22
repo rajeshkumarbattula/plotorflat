@@ -48,7 +48,7 @@ function renderCards(data, containerId) {
             <div class="card">
                 <div class="carousel" id="carousel-${containerId}-${index}">
                     <button class="prev" onclick="showPrev('${containerId}', ${index}, ${item.imgCount}, '${item.imgBase}')">&#10094;</button>
-                    <img src="${item.imgBase}1.jpg" alt="${item.title}" id="img-${containerId}-${index}">
+                    <img src="${item.imgBase}1.JPG" alt="${item.title}" id="img-${containerId}-${index}">
                     <button class="next" onclick="showNext('${containerId}', ${index}, ${item.imgCount}, '${item.imgBase}')">&#10095;</button>
                 </div>
                 <div class="card-content">
@@ -69,7 +69,7 @@ function showPrev(containerId, cardIndex, imgCount, imgBase) {
     const imgElement = document.getElementById(`img-${containerId}-${cardIndex}`);
     let currentIndex = parseInt(imgElement.dataset.index || "1");
     currentIndex = currentIndex === 1 ? imgCount : currentIndex - 1;
-    imgElement.src = `${imgBase}${currentIndex}.jpg`;
+    imgElement.src = `${imgBase}${currentIndex}.JPG`;
     imgElement.dataset.index = currentIndex;
 }
 
@@ -77,6 +77,6 @@ function showNext(containerId, cardIndex, imgCount, imgBase) {
     const imgElement = document.getElementById(`img-${containerId}-${cardIndex}`);
     let currentIndex = parseInt(imgElement.dataset.index || "1");
     currentIndex = currentIndex === imgCount ? 1 : currentIndex + 1;
-    imgElement.src = `${imgBase}${currentIndex}.jpg`;
+    imgElement.src = `${imgBase}${currentIndex}.JPG`;
     imgElement.dataset.index = currentIndex;
 }
