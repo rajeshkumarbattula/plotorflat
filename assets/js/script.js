@@ -27,7 +27,7 @@ const flats = [
         size: "1050 sft", 
         price: "58 Lakhs", 
         imgBase: "assets/images/NirvanaKuteer_", 
-        imgCount: 1, 
+        imgCount: 11, 
         href: ""
     },
     { 
