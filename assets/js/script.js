@@ -26,7 +26,7 @@ const flats = [
         location: "Pragathi Nagar - near More Super Markat", 
         size: "1050 sft", 
         price: "58 Lakhs", 
-        imgBase: "assets/images/NirvanaKuteer_", 
+        imgBase: "assets/images/nirvana_", 
         imgCount: 11, 
         href: ""
     },
