@@ -1,12 +1,13 @@
 const plots = [
     { 
-        title: "SVG Flora", 
+        title: "SVG Flora form land", 
         location: "Jangaon", 
         size: "242 syd onwards", 
         price: "2,899/- per sqd", 
         imgBase: "assets/images/SVGFLORA_", 
         imgCount: 7, 
-        href: "assets/Brochure/SVG_Flora_Farms_Resorts_Brochure.pdf"
+        href: "assets/Brochure/SVG_Flora_Farms_Resorts_Brochure.pdf",
+		Details: "100 acre project | With a 5-acre premium resort, modern amenities |3 mins from Warangal highway"
     },
     { 
         title: "GEM Group | Sree Laxmi Balaji Township", 
@@ -15,7 +16,18 @@ const plots = [
         price: "25,000/- per sqd", 
         imgBase: "assets/images/sreelaxmibalaji_", 
         imgCount: 7, 
-        href: "assets/Brochure/Sree_laxmi_balaji_township_Brochure.pdf"
+        href: "assets/Brochure/Sree_laxmi_balaji_township_Brochure.pdf",
+		Details: "46 acre project | Adjasent to houses | Near to Amazon Data Center | proposed school with in this venture | Clubhouse"
+    },
+    { 
+        title: "1000 syd open land at Timmapur", 
+        location: "Timmapur, 400 meters from Bangaloru Road", 
+        size: "1000 syd", 
+        price: "9000/- per sqd", 
+        imgBase: "assets/images/Timmapur_", 
+        imgCount: 2, 
+        href: "",
+		Details: "immidiate registration, second venture from main road"
     }
 ];
 
@@ -24,11 +36,12 @@ const flats = [
    { 
         title: "Nirvanan Kuteer (re sale)", 
         location: "Pragathi Nagar - near More Super Markat", 
-        size: "1050 sft", 
+        size: "1050", 
         price: "58 Lakhs", 
         imgBase: "assets/images/nirvana_", 
         imgCount: 11, 
-        href: ""
+        href: "",
+		Details: "Getting 20,000/- rent every month | no water problem | as per vastu"
     },
     { 
         title: "Indipendent house", 
@@ -37,7 +50,18 @@ const flats = [
         price: "1.4 Cr", 
         imgBase: "assets/images/mahadevpuram_", 
         imgCount: 1, 
-        href: ""
+        href: "",
+		Details: "Ready to occupy | as per vastu "
+    },
+    { 
+        title: "Spring Ville | Villa no.135/A", 
+        location: "Nizempet, Hyderabad", 
+        size: "300 syd | 5780 sef | G+2", 
+        price: "3.9 Cr", 
+        imgBase: "assets/images/SpringVille_", 
+        imgCount: 1, 
+        href: "",
+		Details: "4 Beedroom | Study Room | Home theatre | Servent Room | Lift"
     }
 ];
 
@@ -56,6 +80,7 @@ function renderCards(data, containerId) {
                     <p>${item.location} | ${item.size}</p>
                     <p class="price">${item.price}</p>
                     <a href="${item.href}">Brochure</a>
+					<p>${item.Details}</p>
                 </div>
             </div>
         `;
