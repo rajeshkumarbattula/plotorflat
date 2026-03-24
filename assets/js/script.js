@@ -59,7 +59,7 @@ const flats = [
         size: "300 syd | 5780 sef | G+2", 
         price: "3.9 Cr", 
         imgBase: "assets/images/SpringVille_", 
-        imgCount: 1, 
+        imgCount: 3, 
         href: "",
 		Details: "4 Beedroom | Study Room | Home theatre | Servent Room | Lift"
     }
