@@ -17,7 +17,7 @@ const plots = [
         imgBase: "assets/images/sreelaxmibalaji_", 
         imgCount: 7, 
         href: "assets/Brochure/Sree_laxmi_balaji_township_Brochure.pdf",
-		Details: "46 acre project | Adjasent to houses | Near to Amazon Data Center | proposed school with in this venture | Clubhouse"
+		Details: "46 acre project | Adjasent to houses | Near to Amazon Data Center | proposed school with in this venture | Clubhouse | Just 2Kms From Shadnagar Bus Station"
     },
     { 
         title: "1000 syd open land at Timmapur", 
