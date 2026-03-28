@@ -28,6 +28,16 @@ const plots = [
         imgCount: 2, 
         href: "",
 		Details: "immidiate registration, second venture from main road"
+    },
+    { 
+        title: "5 acre agriculture land", 
+        location: "Near to Balanagar, ShadNagar", 
+        size: "5 acre", 
+        price: "60 Lakhs per acre", 
+        imgBase: "assets/images/5acre60lakhs_", 
+        imgCount: 2, 
+        href: "",
+		Details: "Landscape land, Clear title"
     }
 ];
 
