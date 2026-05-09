@@ -72,6 +72,16 @@ const flats = [
         imgCount: 3, 
         href: "",
 		Details: "4 Beedroom | Study Room | Home theatre | Servent Room | Lift"
+    },
+    { 
+        title: "G+2 Indipendent house with 3 shops", 
+        location: "Madhura Nagar | Mansoorabad | LB Nagar", 
+        size: "200 syd | G+2 | 3 shops", 
+        price: "2.2 Cr", 
+        imgBase: "assets/images/LB_NAGAR_IND2.2cr_", 
+        imgCount: 9, 
+        href: "",
+		Details: "Clear title | 60,000/- rents per month"
     }
 ];
 
